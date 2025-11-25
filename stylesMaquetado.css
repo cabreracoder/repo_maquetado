@@ -1,0 +1,27 @@
+/*Quito las margenes de la pagina con el BODY*/
+body{
+    margin: 0;   
+    padding: 0;
+}
+.header{
+    width: auto; 
+    height: 70px;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; /*le damos smargien en toda la pantalla*/
+    align-items: center; /*Centramos verticalmente*/
+    
+}
+.header .logo{
+    color: white;
+}
+.header .nav a{
+    color: white;
+    text-decoration: none; /*quitamos la linea de abajo que lleva las palabras*/
+    margin: 2px 10px;  /*damos espacio entre palabras*/
+}
+.logo img{
+    width: 150px;
+    height: auto;
+}
