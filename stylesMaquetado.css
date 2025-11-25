@@ -25,3 +25,61 @@ body{
     width: 150px;
     height: auto;
 }
+.portada {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 300px;
+    padding: 20px;
+}
+.portada .izquierda{
+    background-color: rgb(100, 100, 148);
+    width: 70%;
+    align-items: center; /*Centramos verticalmente*/
+}
+
+.portada .izquierda .titulo_top{
+    font-size: 24px;
+    font-weight:bold;
+    margin-bottom: 10px;
+    margin-top: 70px;
+}
+.portada .izquierda .msj_bienvenida{
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    
+}
+.portada .izquierda .botones .btn_negro{
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer; /*determina el tipo de cursor que va en el contenedor*/
+    font-size: 14px;
+    width: 80px;
+    height: 30px;
+    margin-left: 200px;
+}
+.portada .izquierda .botones .btn_blanco{
+    background-color:white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer; /*determina el tipo de cursor que va en el contenedor*/
+    font-size: 14px;
+    width: 80px;
+    height: 30px;
+}
+.portada .derecha{
+    background-color: rgb(179, 180, 233);
+    width: 70%;
+    padding-left: 20px; /*Le colocamos el espacio entre el contenedor de la izquierda*/
+    text-align: right; /*Aliniamos el texto a la derecha*/
+}
+.img_derecha img{
+    text-align: center;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
